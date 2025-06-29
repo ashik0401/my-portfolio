@@ -1,12 +1,65 @@
-# React + Vite
+# 💼 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my **developer portfolio**, a showcase of my latest projects, skills, and web development experience. Built with modern technologies like **React**, **Tailwind CSS**, **Framer Motion**, and more.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Portfolio](https://ashik-mahmud-portfolio.web.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- ⚛️ Single Page Application (SPA) using **React**
+- 🎨 Modern UI with **Tailwind CSS** and **DaisyUI**
+- 📱 Fully Responsive (mobile, tablet & desktop)
+- ✨ Smooth animations using **Framer Motion**
+- 🖼️ Project image sliders powered by **Swiper.js**
+- 🧠 Dynamic project content loaded from JSON
+- 🌐 Links to live projects and GitHub repositories
+- 🔍 Hover effects and transitions for better interactivity
+- 🧊 Glassmorphism-style sections using **backdrop blur**
+
+---
+
+## 🛠️ Technologies Used
+
+- **React**
+- **Tailwind CSS**
+- **DaisyUI**
+- **Framer Motion**
+- **Swiper.js**
+- **React Icons**
+
+---
+
+## 🖼️ Sections Overview
+
+- **Navbar** – Responsive navigation with smooth scroll
+- **About Me** – A brief introduction
+- **Skills** – Tools and technologies I work with
+- **Projects** – Showcase of real-world work with modal descriptions
+- **Contact** – Contact section (with smooth scroll)
+
+---
+
+
+
+## 🙌 Acknowledgments
+- Tailwind CSS
+
+- DaisyUI
+
+- Framer Motion
+
+- Swiper.js
+
+## 📬 Contact
+_Feel free to reach out via LinkedIn or email me at ashik04am@gmail.com
+
+## 🧾 License
+- This project is open-source and available under the MIT License.
+
+## 👨‍💻 Author
+
+**Ashik Mahmud**
