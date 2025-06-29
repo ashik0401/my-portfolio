@@ -43,8 +43,7 @@ Welcome to my **developer portfolio**, a showcase of my latest projects, skills,
 
 ---
 
-## 🧾 License
-- This project is open-source and available under the MIT License.
+
 
 ## 🙌 Acknowledgments
 - Tailwind CSS
@@ -58,6 +57,8 @@ Welcome to my **developer portfolio**, a showcase of my latest projects, skills,
 ## 📬 Contact
 _Feel free to reach out via LinkedIn or email me at ashik04am@gmail.com
 
+## 🧾 License
+- This project is open-source and available under the MIT License.
 
 ## 👨‍💻 Author
 
