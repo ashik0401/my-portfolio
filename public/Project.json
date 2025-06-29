@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "QueryNest",
+        "images": [
+            "https://i.ibb.co/zhGbv4BW/Screenshot-2025-06-28-195401.png",
+            "https://i.ibb.co/JFw397Tg/Screenshot-2025-06-28-195324.png",
+            "https://i.ibb.co/rK098Wfn/Screenshot-2025-06-28-195228.png",
+            "https://i.ibb.co/d0rKDrxr/Screenshot-2025-06-28-195201.png"
+        ],
+        "techStack": [
+            "React",
+            "React Router",
+            "Tailwind CSS",
+            "Daisy UI",
+            "Express.js",
+            "MongoDB",
+            "Firebase"
+        ],
+        "shortDescription": "QueryNest is a dynamic platform where users can ask questions about any product and receive expert insights. Our Recommendation Section empowers users to share their top product picks, while the My Recommendations page lets users easily access their personalized suggestions. Additionally, the Recommendations for Me page showcases curated product recommendations from the community specifically tailored for each user. On the Landing Page, visitors stay informed with the latest query posts, complemented by a dedicated Trending Product Discussions section that highlights the most popular and engaging conversations. QueryNest connects users, builds trust, and helps everyone make smarter buying decisions.",
+        "liveLink": "https://query-nest-a854a.web.app/",
+        "githubLink": "https://github.com/ashik0401/query-nest/tree/main/b11a11-client-side-ashik0401",
+        "challenges": "Implementing JWT for route protection was a new experience. Ensuring secure access across all private routes was challenging but successfully achieved on time.",
+        "futurePlans": "Plan to integrate role-based access control, enhance the recommendation algorithm, and implement real-time query notifications using WebSockets."
+    },
+    {
+        "id": 2,
+        "title": "BotanicNest",
+        "images": [
+            "https://i.ibb.co/4wDnbzBH/Screenshot-2025-06-29-003644.png",
+            "https://i.ibb.co/dJrnKP9R/Screenshot-2025-06-29-003621.png",
+            "https://i.ibb.co/Q7rsdvGS/Screenshot-2025-06-29-003610.png",
+            "https://i.ibb.co/zTnzjhcn/Screenshot-2025-06-29-003447.png"
+        ],
+        "techStack": [
+            "React",
+            "React Router",
+            "Tailwind CSS",
+            "Daisy UI",
+            "Express.js",
+            "MongoDB",
+            "Firebase"
+        ],
+        "shortDescription": "A full-stack plant care tracker that enables users to efficiently manage watering schedules, monitor plant health, and access personalized dashboards. Features include secure Firebase authentication, complete CRUD operations, and a responsive design for optimal usability across devices. Built with React, Node.js, and MongoDB to deliver a seamless and robust user experience.",
+        "liveLink": "https://botanic-nest.web.app/",
+        "githubLink": "https://github.com/ashik0401/botanic-nest-website-/tree/main/botanic-nest-client",
+        "challenges": "Managing state and asynchronous operations effectively in React to provide smooth user interactions.",
+        "futurePlans": "Add AI-powered plant health diagnostics to provide personalized care recommendations."
+    },
+    {
+        "id": 3,
+        "title": "Pay Bills",
+        "images": [
+            "https://i.ibb.co/3935p3YH/Screenshot-2025-06-29-005815.png",
+            "https://i.ibb.co/fVwxd7jd/Screenshot-2025-06-29-005727.png",
+            "https://i.ibb.co/39PWk9Wy/Screenshot-2025-06-29-005701.png",
+            "https://i.ibb.co/9mQ69m9h/Screenshot-2025-06-29-005646.png"
+        ],
+        "techStack": [
+            "React",
+            "React Router",
+            "Tailwind CSS",
+            "Daisy UI",
+            "Firebase"
+        ],
+        "shortDescription": "A full-stack responsive bill management system that allows users to securely pay multiple utility bills using their account balance. Key features include Firebase authentication for secure access, real-time balance updates to ensure accurate transactions, and intuitive bill filtering for easy navigation. Built with React and Firebase, the application delivers a seamless and user-friendly experience across devices.",
+        "liveLink": "https://pay-bill-management-secure.netlify.app/",
+        "githubLink": "https://github.com/ashik0401/bill-management-system/tree/main/b11a9-react-authentication-ashik0401",
+        "challenges": "Ensuring real-time synchronization of user account balances to prevent inconsistencies during concurrent transactions.",
+        "futurePlans": "Integrate support for additional payment methods like credit/debit cards and digital wallets."
+    }
+]
