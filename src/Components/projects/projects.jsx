@@ -19,6 +19,7 @@ const iconMap = {
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   const [modalProject, setModalProject] = useState(null);
+  const [showFullDesc, setShowFullDesc] = useState(false);
 
   useEffect(() => {
     fetch("/Project.json")
@@ -28,10 +29,12 @@ const Projects = () => {
 
   const openDetails = (project) => {
     setModalProject(project);
+    setShowFullDesc(false);
   };
 
   const closeDetails = () => {
     setModalProject(null);
+    setShowFullDesc(false);
   };
 
   return (
@@ -53,7 +56,6 @@ const Projects = () => {
                   style={{ minHeight: 320 }}
                   whileHover={{
                     scale: 1.05,
-                    
                     transition: { duration: 0.4 },
                   }}
                 >
@@ -107,7 +109,7 @@ const Projects = () => {
                           </button>
                           <button
                             onClick={() => window.open(project.githubLink, "_blank")}
-                            className="bg-gray-700 hover:bg-gray-800 px-4 py-2 rounded text-white font-medium cursor-pointer" 
+                            className="bg-gray-700 hover:bg-gray-800 px-4 py-2 rounded text-white font-medium cursor-pointer"
                           >
                             GitHub
                           </button>
@@ -258,7 +260,19 @@ const Projects = () => {
               ×
             </button>
             <h2 className="text-3xl font-bold mb-4">{modalProject.title}</h2>
-            <p className="mb-4 whitespace-pre-line">{modalProject.shortDescription}</p>
+            <p
+              className={`mb-4 whitespace-pre-line ${
+                showFullDesc ? "" : "line-clamp-2"
+              }`}
+            >
+              {modalProject.shortDescription}
+            </p>
+            <button
+              onClick={() => setShowFullDesc(!showFullDesc)}
+              className="text-orange-500 font-bold cursor-pointer hover:underline mb-4 "
+            >
+              {showFullDesc ? "See less" : "See more"}
+            </button>
             <h3 className="text-xl font-semibold mb-2">Challenges</h3>
             <p className="mb-4 whitespace-pre-line">{modalProject.challenges}</p>
             <h3 className="text-xl font-semibold mb-2">Future Plans</h3>
