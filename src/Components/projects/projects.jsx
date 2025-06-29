@@ -262,7 +262,7 @@ const Projects = () => {
             <h2 className="text-3xl font-bold mb-4">{modalProject.title}</h2>
             <p
               className={`mb-4 whitespace-pre-line ${
-                showFullDesc ? "" : "line-clamp-2"
+                showFullDesc ? "" : "line-clamp-3"
               }`}
             >
               {modalProject.shortDescription}
