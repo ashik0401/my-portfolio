@@ -99,12 +99,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                     </div>
-                    {/* <motion.button
-                        className=" bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300"
-                        whileHover={{ scale: 1.05 }}
-                    >
-                        Resume
-                    </motion.button> */}
+
                 </div>
             </div>
         </div>
