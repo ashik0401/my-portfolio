@@ -128,7 +128,7 @@ const Contact = () => {
               rows="5"
               placeholder="Your Message"
               required
-              className="w-full h-96 px-4 py-2 rounded-md bg-white/5 text-white border border-white/30 focus:outline-none"
+              className="w-full md:h-96 px-4 py-2 rounded-md bg-white/5 text-white border border-white/30 focus:outline-none"
             ></textarea>
             <button
               type="submit"
