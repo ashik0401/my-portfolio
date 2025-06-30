@@ -81,7 +81,7 @@ const Navbar = () => {
                             src={logo} alt="" />
 
                     </a>
-                    <h2 className='text-xl font-semibold text-orange-400'>Ashik Mahmud</h2>
+                    <h2 className='text-xl font-semibold text-orange-400 btn bg-transparent border-none shadow-none px-0'>Ashik Mahmud</h2>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-xs">{link}</ul>
