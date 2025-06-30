@@ -17,7 +17,7 @@ const Banner = () => {
                     <span className="text-orange-400">Hi, <br /></span>I'm <span className="font-semibold underline decoration-orange-400">Ashik Mahmud</span>
                 </h1>
                 <p className="text-lg md:text-xl">
-                    A passionate <strong className="text-orange-500">Full Stack Web Developer</strong> who crafts responsive and dynamic web applications using React, Tailwind CSS, Node.js, and MongoDB.
+                    A passionate <strong className="text-orange-400">MERN Stack Developer</strong> who crafts responsive and dynamic web applications using React, Tailwind CSS, Node.js, and MongoDB.
                 </p>
               <div className="flex gap-2">
                   <div>
