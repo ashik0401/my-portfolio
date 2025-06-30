@@ -255,7 +255,7 @@ const Projects = () => {
               className="absolute top-3 right-3 text-gray-700 hover:text-gray-900 font-bold text-3xl leading-none"
               aria-label="Close modal"
             >
-              ×
+              
             </button>
             <h2 className="text-3xl font-bold mb-4">{modalProject.title}</h2>
             <p className="mb-4 whitespace-pre-line">{modalProject.shortDescription}</p>

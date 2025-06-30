@@ -87,6 +87,7 @@ const AboutMe = () => {
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
+
       >
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-orange-500">
           About Me
@@ -100,7 +101,7 @@ const AboutMe = () => {
             whileInView={cardVariants[index % cardVariants.length].animate}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.4, ease: "easeOut" }}
-            viewport={{ once: true, amount: 0.4 }}
+            viewport={{ infinity: true, amount: 0.4 }}
           >
             <div className="text-orange-500 text-2xl mt-1">{icons[index]}</div>
             <div className="text-left">{para}</div>
