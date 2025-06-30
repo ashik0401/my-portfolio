@@ -59,7 +59,7 @@ const Banner = () => {
                     <img
                         src={bannerImage}
                         alt=""
-                        className="object-contain w-full h-full"
+                        className="object-contain  md:h-full h-96 w-full"
                     />
                 </div>
             </motion.div>
