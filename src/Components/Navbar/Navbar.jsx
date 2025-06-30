@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import { motion } from "framer-motion";
 import logo from '../../assets/logo.png'
 
 const Navbar = () => {

@@ -80,10 +80,10 @@ const AboutMe = () => {
   return (
     <section
       id="about"
-      className="flex items-center justify-center text-white px-4 sm:px-8 md:px-16 py-16"
+      className="flex overflow-hidden items-center justify-center text-white px-0 mx-0 md:px-16 py-16"
     >
       <motion.div
-        className="w-full max-w-5xl text-center space-y-8"
+        className="w-full md:max-w-5xl text-center space-y-8"
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}

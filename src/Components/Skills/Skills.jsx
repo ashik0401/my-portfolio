@@ -24,7 +24,21 @@ const skills = [
   { icon: SiFirebase, title: "Firebase" },
 ];
 
-const loopVariants = {
+const loopLeftToRight = {
+  animate: {
+    x: ["-50%", "0%"],
+    transition: {
+      x: {
+        repeat: Infinity,
+        repeatType: "loop",
+        duration: 20,
+        ease: "linear",
+      },
+    },
+  },
+};
+
+const loopRightToLeft = {
   animate: {
     x: ["0%", "-50%"],
     transition: {
@@ -43,7 +57,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="py-20 overflow-hidden text-white">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto ">
         <h2 className="text-4xl font-bold mb-10 text-center text-orange-400">
           My Skills
         </h2>
@@ -57,10 +71,11 @@ const Skills = () => {
           />
         </div>
 
-        <div className="relative w-full overflow-hidden">
+       <div className="border p-5 rounded-2xl border-white/20">
+         <div className="relative w-full overflow-hidden ">
           <motion.div
             className="flex gap-10 w-max"
-            variants={loopVariants}
+            variants={loopRightToLeft}
             animate="animate"
           >
             {repeatedSkills.map((skill, index) => (
@@ -74,6 +89,24 @@ const Skills = () => {
             ))}
           </motion.div>
         </div>
+        <div className="relative w-full overflow-hidden   mt-5">
+          <motion.div
+            className="flex gap-10 w-max"
+            variants={loopLeftToRight}
+            animate="animate"
+          >
+            {repeatedSkills.map((skill, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center min-w-[120px] p-4 rounded-xl backdrop-blur-md border border-white/20 shadow-lg"
+              >
+                <skill.icon className="text-5xl text-orange-400 mb-2" />
+                <p className="text-sm text-white text-center">{skill.title}</p>
+              </div>
+            ))}
+          </motion.div>
+        </div>
+       </div>
       </div>
     </section>
   );

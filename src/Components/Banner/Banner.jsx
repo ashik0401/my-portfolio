@@ -2,10 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import bannerImage from '../../assets/banner.png';
+import { FiFacebook } from "react-icons/fi";
 
 const Banner = () => {
     return (
-        <div className="py-30 flex flex-col-reverse md:flex-row items-center justify-between text-white">
+        <div className="py-30 flex flex-col-reverse md:flex-row items-center justify-between text-white ">
             <motion.div
                 className="md:w-1/2 space-y-6"
                 initial={{ x: -50, opacity: 0 }}
@@ -18,7 +19,8 @@ const Banner = () => {
                 <p className="text-lg md:text-xl">
                     A passionate <strong className="text-orange-500">Full Stack Web Developer</strong> who crafts responsive and dynamic web applications using React, Tailwind CSS, Node.js, and MongoDB.
                 </p>
-                <div>
+              <div className="flex gap-2">
+                  <div>
                     <a
                         href="https://github.com/ashik0401"
                         target="_blank"
@@ -28,6 +30,17 @@ const Banner = () => {
                         <FaGithub size={40} />
                     </a>
                 </div>
+                <div>
+                    <a
+                        href="https://www.facebook.com/share/19qNpotWrg/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center border border-orange-500 rounded-full p-2 text-white hover:bg-orange-500 transition duration-300"
+                    >
+                        <FiFacebook size={40} />
+                    </a>
+                </div>
+              </div>
                 <motion.button
                     className="mt-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300"
                     whileHover={{ scale: 1.05 }}

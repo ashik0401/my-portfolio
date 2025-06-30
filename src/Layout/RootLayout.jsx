@@ -6,10 +6,10 @@ import Footer from '../Components/Footer/Footer';
 
 const RootLayout = () => {
     return (
-        <div className='bg-[#2C2F48]'>
+        <div className='bg-[#2C2F48] '>
             <ScrollToTop />
             <Navbar />
-            <div className=' w-10/12 mx-auto'>
+            <div className=' md:w-10/12 md:mx-auto px-4 overflow-x-hidden'>
                 <Outlet />
                 <Footer />
             </div>

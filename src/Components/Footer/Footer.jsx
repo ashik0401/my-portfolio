@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
-        <footer className="footer footer-horizontal footer-center text-white rounded p-10 pb-30">
+        <footer className="footer footer-horizontal footer-center text-white rounded  pb-30">
             <nav className="grid grid-flow-col gap-2">
                 <Link
                     to="about"
